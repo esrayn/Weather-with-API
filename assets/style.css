@@ -1,0 +1,77 @@
+
+.body {
+height: 100%;
+  margin: 0;
+
+
+}
+
+.background {
+
+background-image: url("/weather/assets/img1.jpg");
+
+opacity: 1.65;
+
+background-position: center;
+
+background-repeat: no-repeat;
+
+background-size: cover;
+
+height: 100%;
+
+position:  relative;
+}
+.container {
+    width: 1170px;
+    margin: 0 auto;
+    height: 800px;
+}
+
+section.form {
+    padding: 20px;
+    /* position: relative; */
+    z-index:  100000000;
+}
+
+.form-nav {
+    margin: 10px;
+    background: rgba(255,255,255,0.5);
+    padding: 10px;
+}
+.form-nav input {
+
+    margin-left:10px;
+}
+.data-general {
+    display: flex !important;
+    flex-flow:row wrap !important;
+    justify-content: center;
+    width:100%;
+ 
+   
+}
+.box {
+    width: 1100px;
+    background: rgba(0, 0, 0, 0.01);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 3px;
+    box-shadow: 0px 2px 2px #bbcad6;
+}
+
+.image {
+    float:  left;
+    padding: 10px;
+}
+.image img {
+    width: 100px;
+    height:  100px;
+}
+.flex-box {
+    background: rgba(0,0,0,0.06);
+    padding:  20px 40px;
+    margin:  10px;
+    border-radius: 3px;
+    box-shadow: 0px 2px 2px #bbcad6;
+}
